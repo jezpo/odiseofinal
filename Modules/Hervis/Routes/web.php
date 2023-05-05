@@ -11,7 +11,7 @@
 |
 */
 
-Route::prefix('vicerrectorado')->group(function() {
-    Route::get('/', 'VicerrectoradoController@index');
-    Route::get('/ejemplo', 'HomeController@index');
+Route::prefix('hervis')->group(function() {
+    Route::get('/', 'HervisController@index');
+    Route::get('/ejemplo', 'HervisController@index');
 });

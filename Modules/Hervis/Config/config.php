@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'name' => 'Vicerrectorado'
+    'name' => 'Gestion Documental'
 ];
