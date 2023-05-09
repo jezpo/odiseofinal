@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('title', config('bienestarejemplo.name').' :: '.'panel')
+@section('title', config('hervis.name').' :: '.'panel')
 
 @push('css')
 {{-- Aqui se coloca los CSS de assets --}}
@@ -30,7 +30,7 @@
         <div class="col-xl-12 ui-sortable">
             <div class="panel panel-primary" data-sortable-id="ui-widget-1">
                 <div class="panel-heading">
-                    <h4 class="panel-title">RECEPCION DE DOCUMENTOS</h4>
+                    <h4 class="panel-title">CORRESPONDENCIA</h4>
                     <div class="panel-heading-btn">
                         <a href="#" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand">
                             <i class="fa fa-expand"></i>
@@ -39,8 +39,8 @@
                 </div>
                 <div class="panel-body">
                     <div>
-                        <h2 class="text-center">Recepcion de Documentos</h2>
-                        <h3>Username Trabajo Social datetime</h3>
+                        <h2 class="text-center">{!! config('hervis.name') !!}</h2>
+                        <h3>texto de prueba</h3>
                     </div>
                     <div class="row">
                         <div class="col-xl-7 d-block d-sm-flex d-xl-block justify-content-center">
@@ -85,6 +85,8 @@
                             </div>
                         </div>
                     </div>
+
+
                     <table id="ejemplo" class="table table-striped table-bordered" style="width:100%">
                         <thead>
                             <tr>
@@ -96,275 +98,8 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Tiger Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
-                            </tr>
-                            <tr>
-                                <td>Garrett Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>63</td>
-
-                            </tr>
-                            <tr>
-                                <td>Ashton Cox</td>
-                                <td>Junior Technical Author</td>
-                                <td>San Francisco</td>
-                                <td>66</td>
-
-                            </tr>
-                            <tr>
-                                <td>Cedric Kelly</td>
-                                <td>Senior Javascript Developer</td>
-                                <td>Edinburgh</td>
-                                <td>22</td>
-
-                            </tr>
-                            <tr>
-                                <td>Airi Satou</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>33</td>
-
-                            </tr>
-                            <tr>
-                                <td>Brielle Williamson</td>
-                                <td>Integration Specialist</td>
-                                <td>New York</td>
-                                <td>61</td>
-
-                            </tr>
-                            <tr>
-                                <td>Herrod Chandler</td>
-                                <td>Sales Assistant</td>
-                                <td>San Francisco</td>
-                                <td>59</td>
-
-                            </tr>
-                            <tr>
-                                <td>Rhona Davidson</td>
-                                <td>Integration Specialist</td>
-                                <td>Tokyo</td>
-                                <td>55</td>
-
-                            </tr>
-                            <tr>
-                                <td>Colleen Hurst</td>
-                                <td>Javascript Developer</td>
-                                <td>San Francisco</td>
-                                <td>39</td>
-
-                            </tr>
-                            <tr>
-                                <td>Sonya Frost</td>
-                                <td>Software Engineer</td>
-                                <td>Edinburgh</td>
-                                <td>23</td>
-
-                            </tr>
-                            <tr>
-                                <td>Shou Itou</td>
-                                <td>Regional Marketing</td>
-                                <td>Tokyo</td>
-                                <td>20</td>
-
-                            </tr>
-                            <tr>
-                                <td>Michelle House</td>
-                                <td>Integration Specialist</td>
-                                <td>Sidney</td>
-                                <td>37</td>
-
-                            </tr>
-                            <tr>
-                                <td>Suki Burks</td>
-                                <td>Developer</td>
-                                <td>London</td>
-                                <td>53</td>
-                            </tr>
-                            <tr>
-                                <td>Prescott Bartlett</td>
-                                <td>Technical Author</td>
-                                <td>London</td>
-                                <td>27</td>
-
-                            </tr>
-                            <tr>
-                                <td>Gavin Cortez</td>
-                                <td>Team Leader</td>
-                                <td>San Francisco</td>
-                                <td>22</td>
-
-                            </tr>
-                            <tr>
-                                <td>Martena Mccray</td>
-                                <td>Post-Sales support</td>
-                                <td>Edinburgh</td>
-                                <td>46</td>
-
-                            </tr>
-                            <tr>
-                                <td>Unity Butler</td>
-                                <td>Marketing Designer</td>
-                                <td>San Francisco</td>
-                                <td>47</td>
-
-                            </tr>
-                            <tr>
-                                <td>Howard Hatfield</td>
-                                <td>Office Manager</td>
-                                <td>San Francisco</td>
-                                <td>51</td>
-
-                            </tr>
-                            <tr>
-                                <td>Hope Fuentes</td>
-                                <td>Secretary</td>
-                                <td>San Francisco</td>
-                                <td>41</td>
-
-                            </tr>
-                            <tr>
-                                <td>Vivian Harrell</td>
-                                <td>Financial Controller</td>
-                                <td>San Francisco</td>
-                                <td>62</td>
-
-                            </tr>
-                            <tr>
-                                <td>Timothy Mooney</td>
-                                <td>Office Manager</td>
-                                <td>London</td>
-                                <td>37</td>
-
-                            </tr>
-                            <tr>
-                                <td>Jackson Bradshaw</td>
-                                <td>Director</td>
-                                <td>New York</td>
-                                <td>65</td>
-                            </tr>
-                            <tr>
-                                <td>Olivia Liang</td>
-                                <td>Support Engineer</td>
-                                <td>Singapore</td>
-                                <td>64</td>
-
-                            </tr>
-                            <tr>
-                                <td>Bruno Nash</td>
-                                <td>Software Engineer</td>
-                                <td>London</td>
-                                <td>38</td>
-
-                            </tr>
-                            <tr>
-                                <td>Sakura Yamamoto</td>
-                                <td>Support Engineer</td>
-                                <td>Tokyo</td>
-                                <td>37</td>
-
-                            </tr>
-                            <tr>
-                                <td>Thor Walton</td>
-                                <td>Developer</td>
-                                <td>New York</td>
-                                <td>61</td>
-
-                            </tr>
-                            <tr>
-                                <td>Finn Camacho</td>
-                                <td>Support Engineer</td>
-                                <td>San Francisco</td>
-                                <td>47</td>
-
-                            </tr>
-                            <tr>
-                                <td>Serge Baldwin</td>
-                                <td>Data Coordinator</td>
-                                <td>Singapore</td>
-                                <td>64</td>
-
-                            </tr>
-                            <tr>
-                                <td>Zenaida Frank</td>
-                                <td>Software Engineer</td>
-                                <td>New York</td>
-                                <td>63</td>
-
-                            </tr>
-                            <tr>
-                                <td>Zorita Serrano</td>
-                                <td>Software Engineer</td>
-                                <td>San Francisco</td>
-                                <td>56</td>
-
-                            </tr>
-                            <tr>
-                                <td>Jennifer Acosta</td>
-                                <td>Junior Javascript Developer</td>
-                                <td>Edinburgh</td>
-                                <td>43</td>
-
-                            </tr>
-                            <tr>
-                                <td>Cara Stevens</td>
-                                <td>Sales Assistant</td>
-                                <td>New York</td>
-                                <td>46</td>
-
-                            </tr>
-                            <tr>
-                                <td>Hermione Butler</td>
-                                <td>Regional Director</td>
-                                <td>London</td>
-                                <td>47</td>
-
-                            </tr>
-                            <tr>
-                                <td>Lael Greer</td>
-                                <td>Systems Administrator</td>
-                                <td>London</td>
-                                <td>21</td>
-
-                            </tr>
-                            <tr>
-                                <td>Jonas Alexander</td>
-                                <td>Developer</td>
-                                <td>San Francisco</td>
-                                <td>30</td>
-
-                            </tr>
-                            <tr>
-                                <td>Shad Decker</td>
-                                <td>Regional Director</td>
-                                <td>Edinburgh</td>
-                                <td>51</td>
-
-                            </tr>
-                            <tr>
-                                <td>Michael Bruce</td>
-                                <td>Javascript Developer</td>
-                                <td>Singapore</td>
-                                <td>29</td>
-
-                            </tr>
-                            <tr>
-                                <td>Donna Snider</td>
-                                <td>Customer Support</td>
-                                <td>New York</td>
-                                <td>27</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <th>RU</th>
-                                <th>CI</th>
-                                <th>NOMBRE</th>
-                                <th>CARRERA</th>
-                        </tfoot>
+                                <th class="text-nowrap sorting" tabindex="0" aria-controls="data-table-combine" rowspan="1" colspan="1" style="width: 109px;" data-column-index="2" aria-label="Rendering engine: activate to sort column ascending">RUE</th>
+                                <th class="text-nowrap sorting" tabindex="0" aria-controls="data-table-combine" rowspan="1" colspan="1" style="width: 133px;" data-column-index="4" aria-label="Platform(s): activate to sort column ascending">CI</th>
                     </table>
                     <!--end table -->
                     <div class="row justify-content-around">
@@ -460,6 +195,8 @@
     </div>
 </div>
 <!-- end row -->
+
+
 @endsection
 
 @push('scripts')

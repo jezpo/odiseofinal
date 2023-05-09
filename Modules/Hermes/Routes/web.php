@@ -13,4 +13,6 @@
 
 Route::prefix('hermes')->group(function() {
     Route::get('/', 'HermesController@index');
+    Route::get('/panel', 'HermesController@panel')->name('hermes.panel');
 });
+
