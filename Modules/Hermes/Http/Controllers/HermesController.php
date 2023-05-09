@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Hervis\Http\Controllers;
+namespace Modules\Hermes\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-class HervisController extends Controller
+class HermesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,20 +14,16 @@ class HervisController extends Controller
      */
     public function index()
     {
-        return view('hervis::index');
+        return view('hermes::index');
     }
 
-    public function panel()
-    {
-        return view('hervis::pages.panel');
-    }
     /**
      * Show the form for creating a new resource.
      * @return Renderable
      */
     public function create()
     {
-        return view('hervis::create');
+        return view('hermes::create');
     }
 
     /**
@@ -47,7 +43,7 @@ class HervisController extends Controller
      */
     public function show($id)
     {
-        return view('hervis::show');
+        return view('hermes::show');
     }
 
     /**
@@ -57,7 +53,7 @@ class HervisController extends Controller
      */
     public function edit($id)
     {
-        return view('hervis::edit');
+        return view('hermes::edit');
     }
 
     /**

@@ -11,8 +11,6 @@
 |
 */
 
-Route::prefix('hervis')->group(function() {
-    Route::get('/', 'HervisController@index');
-    /*Route::get('/ejemplo', 'HervisController@index');*/
-    Route::get('/panel', 'HervisController@panel')->name('hervis.panel');
+Route::prefix('hermes')->group(function() {
+    Route::get('/', 'HermesController@index');
 });
